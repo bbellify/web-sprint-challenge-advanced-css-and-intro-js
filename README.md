@@ -24,7 +24,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 1. How would you describe acessibility on the web to someone new to programming?
 
-    Accessibility refers to how accessible a website's design is to segments of the population whose interaction with our website might be described as something other than a standard use case. Examples might include use of a screen reader, dramatically increased font/page size, very slow internet connection, etc. Keeping these design considerations in mind at the beginning of development can ensure that segments of the population aren't accidentally excluded from the possibility of participation, that the maximum amount of traffic will meaningfully engage with your website, and saves you (the developer) lots of time by preventing the need to go address these concerns post hoc. 
+    Accessibility refers to how accessible (or usable) a website's design is to segments of the general population whose interaction with our website might be described as something other than a standard use case. Examples might include use of a screen reader, dramatically increased font/page size, very slow internet connection, etc. Keeping these design considerations in mind at the beginning of development can ensure that segments of the population aren't accidentally excluded from the possibility of participation, that the maximum amount of traffic will meaningfully engage with your website, and saves you (the developer) lots of time by preventing the need to go address these concerns post hoc. 
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
 
@@ -34,7 +34,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 3. How would you explain the concept of a variable to someone new to programming?
 
-    Variables are simply the ability to store a value so it can be recalled by name later in your program. 
+    Variables are simply the ability to store a value so it can be recalled later in your program. They are foundational for programming in js and can be declared in 3 ways (each with different use cases). 
 
 4. What is the purpose of using functions in code?
 
@@ -42,7 +42,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 5. How do you access a key inside of an object inside of an array?
 
-    array[index].key (dot notation) OR array[index]['key'] (bracket notation, used for keys that are strings with spaces)
+    array[index].key (dot notation) OR array[index]['key'] (bracket notation, must be used for keys that are strings with spaces)
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
