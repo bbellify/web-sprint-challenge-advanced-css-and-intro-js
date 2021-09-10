@@ -23,10 +23,26 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+    Accessibility refers to how accessible a website's design is to segments of the population whose interaction with our website might be described as something other than a standard use case. Examples might include use of a screen reader, dramatically increased font/page size, very slow internet connection, etc. Keeping these design considerations in mind at the beginning of development can ensure that segments of the population aren't accidentally excluded from the possibility of participation, that the maximum amount of traffic will meaningfully engage with your website, and saves you (the developer) lots of time by preventing the need to go address these concerns post hoc. 
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    - scalable font sizes - easy to implement and allows reader to adjust website to accommodate their use case
+    - making elements as semantic as possible - this helps someone using for example a screen reader, including helpful context/information for what is being presented since they will likely not be using visual cues to navigate the website
+    - images - at least two things can be kept in mind for making sure images aren't burdensome for some users. 1) compress image sizes so massive files aren't crippling browsers with slow connections and 2) include useful alt text to describe content of images for users that will not be actually viewing the image
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    Variables are simply the ability to store a value so it can be recalled by name later in your program. 
+
 4. What is the purpose of using functions in code?
+
+    Functions keep your code DRY and protect a block of code until it's invoked. By defining a commonly used set of actions into a function you simply have to invoke the function instead of repeating lines of code.
+
 5. How do you access a key inside of an object inside of an array?
+
+    array[index].key (dot notation) OR array[index][key] (bracket notation, used for keys with spaces)
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

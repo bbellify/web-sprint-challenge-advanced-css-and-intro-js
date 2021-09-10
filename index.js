@@ -253,7 +253,7 @@ function get20s(array) {
     } 
   } return bornIn20s;
 }
-console.log(get20s(artists))
+// console.log(get20s(artists))
 
 
 
