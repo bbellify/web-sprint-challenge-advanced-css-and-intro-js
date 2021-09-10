@@ -156,6 +156,7 @@ button:hover{
     .title-container h1 {
         line-height: 1;
         font-size: 4.5rem;
+        font-weight: bold;
         margin-bottom: 2%;
         margin-top: 8%;
     }
@@ -174,16 +175,17 @@ button:hover{
     .artist {
         display: flex;
         flex-direction: column;
-        width: 40%;
-        font-size: 1rem;       
         align-items: center;
+        width: 45%;
+        font-size: 1rem;       
         margin-top: 3%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
     }
 
     .artist a {
         font-size: 1.4rem;
         margin: 3% auto;
+        color: #626262;
     }
 
     .artist img {
@@ -191,7 +193,7 @@ button:hover{
     }
 
     div.bio {
-        width: 135%;
+        width: 130%;
         margin: 0;
         line-height: 1.2;
     }

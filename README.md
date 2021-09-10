@@ -30,7 +30,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
     - scalable font sizes - easy to implement and allows reader to adjust website to accommodate their use case
     - making elements as semantic as possible - this helps someone using for example a screen reader, including helpful context/information for what is being presented since they will likely not be using visual cues to navigate the website
-    - images - at least two things can be kept in mind for making sure images aren't burdensome for some users. 1) compress image sizes so massive files aren't crippling browsers with slow connections and 2) include useful alt text to describe content of images for users that will not be actually viewing the image
+    - images - at least two things can be kept in mind for making sure images aren't burdensome for some users. 1) compress image sizes so massive files aren't crippling browsers with slow connections and 2) include useful alt text to describe content of images for users that will not actually be viewing the image
 
 3. How would you explain the concept of a variable to someone new to programming?
 
@@ -38,7 +38,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 4. What is the purpose of using functions in code?
 
-    Functions keep your code DRY and protect a block of code until it's invoked. By defining a commonly used set of actions into a function, in order to execute the same set of actions again you simply have to invoke the function instead of repeating lines of code.
+    Functions keep your code DRY and protect a block of code until it's invoked. After defining a commonly used sequence of actions into a function, in order to execute the same sequence of actions again you simply have to invoke the function instead of repeating lines of code.
 
 5. How do you access a key inside of an object inside of an array?
 
