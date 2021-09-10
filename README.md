@@ -38,11 +38,11 @@ Please answer the following questions below, you may edit the readme file to inc
 
 4. What is the purpose of using functions in code?
 
-    Functions keep your code DRY and protect a block of code until it's invoked. By defining a commonly used set of actions into a function you simply have to invoke the function instead of repeating lines of code.
+    Functions keep your code DRY and protect a block of code until it's invoked. By defining a commonly used set of actions into a function, in order to execute the same set of actions again you simply have to invoke the function instead of repeating lines of code.
 
 5. How do you access a key inside of an object inside of an array?
 
-    array[index].key (dot notation) OR array[index][key] (bracket notation, used for keys with spaces)
+    array[index].key (dot notation) OR array[index]['key'] (bracket notation, used for keys that are strings with spaces)
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
