@@ -136,10 +136,28 @@ button:hover{
 }
 
 @media (max-width: 500px) {
+    
+    nav a {
+        font-size: 1.8rem;
+        padding: 0 5%;
+        line-height: .9;
+    }
+
+    nav span{
+        border-left:2px solid #626262;
+    }
 
     .title-container div {
         width: 100%;
-        margin: 4% 0 2% 0;
+        height: 50vh;
+        margin: 4% 0 1% 0;
+    }
+
+    .title-container h1 {
+        line-height: 1;
+        font-size: 4.5rem;
+        margin-bottom: 2%;
+        margin-top: 8%;
     }
 
     .title-container hr{
@@ -151,29 +169,30 @@ button:hover{
         align-items: center;
         width: 100%;
         padding-bottom: 20%;
-
     }
 
     .artist {
         display: flex;
         flex-direction: column;
-        width: 45%;
+        width: 40%;
         font-size: 1rem;       
         align-items: center;
-        margin-top: 5%;
-
+        margin-top: 3%;
+        margin-bottom: 2%;
     }
 
     .artist a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin: 3% auto;
     }
+
     .artist img {
         height: 25vh;
     }
 
     div.bio {
-        width: 130%;
+        width: 135%;
         margin: 0;
+        line-height: 1.2;
     }
 }
