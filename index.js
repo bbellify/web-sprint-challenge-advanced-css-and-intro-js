@@ -232,7 +232,7 @@ Example, if getArtistByIndex is invoked with the artists array and the number 0,
 function getArtistByIndex(array, index) {
   return `the artist at index ${index} is ${array[index]['name']}`
 }
-// console.log(getArtistByIndex(0));
+// console.log(getArtistByIndex(artists, 0));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -253,7 +253,7 @@ function get20s(array) {
     } 
   } return bornIn20s;
 }
-// console.log(get20s(artists))
+console.log(get20s(artists));
 
 
 
@@ -270,7 +270,6 @@ function removeArtist(array, index) {
   array.splice([index], 1);
   return array.length;
 }
-
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -294,7 +293,7 @@ function addArtist(array) {
     'name': 'Brian Bellinger',
     'years': '1989 - 2021',
     'genre': 'Web Design',
-    'nationalityi': 'American',
+    'nationality': 'American',
     'bio': 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed ipsam, sequi iste sunt amet tempore quasi aliquid. Ullam, quaerat quidem.'
   }); return array
 } 
